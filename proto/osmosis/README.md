@@ -14,13 +14,13 @@ Copy the needed proto files from the latest stable version of osmosis (or any ot
 Note that not all of the module proto files are needed. In most cases for ICA you should copy the `tx.proto` file and for ICQ `query.proto` with all the imported dependency files recursively`.
 
 ## 3. Changes in proto files
-Change the `go_package` option in all of the imported osmosis proto files from `github.com/osmosis-labs/osmosis/{version}/x/{module}/...` to `github.com/quasarlabs/quasarnode/osmosis/{module}/types`
+Change the `go_package` option in all of the imported osmosis proto files from `github.com/osmosis-labs/osmosis/{version}/x/{module}/...` to `github.com/MonCatCat/quasar/osmosis/{module}/types`
 
 As an example:
 ```
 option go_package = "github.com/osmosis-labs/osmosis/v12/x/gamm/types";
 ->
-option go_package = "github.com/quasarlabs/quasarnode/osmosis/gamm/types";
+option go_package = "github.com/MonCatCat/quasar/osmosis/gamm/types";
 ```
 
 Remove all the `option (gogoproto.goproto_stringer) = false;` statements from imported osmosis proto files.

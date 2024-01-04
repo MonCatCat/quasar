@@ -1,10 +1,11 @@
 package keeper
 
 import (
+	"time"
+
+	"github.com/MonCatCat/quasar/x/qoracle/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/quasarlabs/quasarnode/x/qoracle/types"
-	"time"
 )
 
 // NOTE -

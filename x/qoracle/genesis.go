@@ -1,10 +1,10 @@
 package qoracle
 
 import (
+	genesistypes "github.com/MonCatCat/quasar/x/qoracle/genesis/types"
+	qoraclekeeper "github.com/MonCatCat/quasar/x/qoracle/keeper"
+	qosmokeeper "github.com/MonCatCat/quasar/x/qoracle/osmosis/keeper"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	genesistypes "github.com/quasarlabs/quasarnode/x/qoracle/genesis/types"
-	qoraclekeeper "github.com/quasarlabs/quasarnode/x/qoracle/keeper"
-	qosmokeeper "github.com/quasarlabs/quasarnode/x/qoracle/osmosis/keeper"
 )
 
 func InitGenesis(

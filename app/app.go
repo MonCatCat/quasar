@@ -2,6 +2,7 @@ package app
 
 import (
 	"fmt"
+
 	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
 	authzkeeper "github.com/cosmos/cosmos-sdk/x/authz/keeper"
 
@@ -11,12 +12,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/quasarlabs/quasarnode/app/keepers"
-	v0 "github.com/quasarlabs/quasarnode/app/upgrades/v0"
+	"github.com/MonCatCat/quasar/app/keepers"
+	v0 "github.com/MonCatCat/quasar/app/upgrades/v0"
 
-	appParams "github.com/quasarlabs/quasarnode/app/params"
-	"github.com/quasarlabs/quasarnode/app/upgrades"
+	appParams "github.com/MonCatCat/quasar/app/params"
+	"github.com/MonCatCat/quasar/app/upgrades"
 
+	"github.com/MonCatCat/quasar/app/openapiconsole"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/grpc/tmservice"
@@ -101,7 +103,6 @@ import (
 	ibcporttypes "github.com/cosmos/ibc-go/v4/modules/core/05-port/types"
 	ibchost "github.com/cosmos/ibc-go/v4/modules/core/24-host"
 	ibckeeper "github.com/cosmos/ibc-go/v4/modules/core/keeper"
-	"github.com/quasarlabs/quasarnode/app/openapiconsole"
 	"github.com/spf13/cast"
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmjson "github.com/tendermint/tendermint/libs/json"
@@ -110,34 +111,34 @@ import (
 	dbm "github.com/tendermint/tm-db"
 
 	// Quasar imports
-	"github.com/quasarlabs/quasarnode/docs"
+	"github.com/MonCatCat/quasar/docs"
 
 	"github.com/CosmWasm/wasmd/x/wasm"
 	wasmclient "github.com/CosmWasm/wasmd/x/wasm/client"
 	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
-	owasm "github.com/quasarlabs/quasarnode/wasmbinding"
+	owasm "github.com/MonCatCat/quasar/wasmbinding"
 
-	epochsmodule "github.com/quasarlabs/quasarnode/x/epochs"
-	epochsmodulekeeper "github.com/quasarlabs/quasarnode/x/epochs/keeper"
-	epochsmoduletypes "github.com/quasarlabs/quasarnode/x/epochs/types"
-	"github.com/quasarlabs/quasarnode/x/qtransfer"
-	qtransferkeeper "github.com/quasarlabs/quasarnode/x/qtransfer/keeper"
-	qtransfertypes "github.com/quasarlabs/quasarnode/x/qtransfer/types"
+	epochsmodule "github.com/MonCatCat/quasar/x/epochs"
+	epochsmodulekeeper "github.com/MonCatCat/quasar/x/epochs/keeper"
+	epochsmoduletypes "github.com/MonCatCat/quasar/x/epochs/types"
+	"github.com/MonCatCat/quasar/x/qtransfer"
+	qtransferkeeper "github.com/MonCatCat/quasar/x/qtransfer/keeper"
+	qtransfertypes "github.com/MonCatCat/quasar/x/qtransfer/types"
 
-	qoraclemodule "github.com/quasarlabs/quasarnode/x/qoracle"
-	qoraclemodulekeeper "github.com/quasarlabs/quasarnode/x/qoracle/keeper"
-	qosmo "github.com/quasarlabs/quasarnode/x/qoracle/osmosis"
-	qosmokeeper "github.com/quasarlabs/quasarnode/x/qoracle/osmosis/keeper"
-	qosmotypes "github.com/quasarlabs/quasarnode/x/qoracle/osmosis/types"
-	qoraclemoduletypes "github.com/quasarlabs/quasarnode/x/qoracle/types"
+	qoraclemodule "github.com/MonCatCat/quasar/x/qoracle"
+	qoraclemodulekeeper "github.com/MonCatCat/quasar/x/qoracle/keeper"
+	qosmo "github.com/MonCatCat/quasar/x/qoracle/osmosis"
+	qosmokeeper "github.com/MonCatCat/quasar/x/qoracle/osmosis/keeper"
+	qosmotypes "github.com/MonCatCat/quasar/x/qoracle/osmosis/types"
+	qoraclemoduletypes "github.com/MonCatCat/quasar/x/qoracle/types"
 
-	qvestingmodule "github.com/quasarlabs/quasarnode/x/qvesting"
-	qvestingmodulekeeper "github.com/quasarlabs/quasarnode/x/qvesting/keeper"
-	qvestingmoduletypes "github.com/quasarlabs/quasarnode/x/qvesting/types"
-	tfmodule "github.com/quasarlabs/quasarnode/x/tokenfactory"
-	tfbindings "github.com/quasarlabs/quasarnode/x/tokenfactory/bindings"
-	tfkeeper "github.com/quasarlabs/quasarnode/x/tokenfactory/keeper"
-	tftypes "github.com/quasarlabs/quasarnode/x/tokenfactory/types"
+	qvestingmodule "github.com/MonCatCat/quasar/x/qvesting"
+	qvestingmodulekeeper "github.com/MonCatCat/quasar/x/qvesting/keeper"
+	qvestingmoduletypes "github.com/MonCatCat/quasar/x/qvesting/types"
+	tfmodule "github.com/MonCatCat/quasar/x/tokenfactory"
+	tfbindings "github.com/MonCatCat/quasar/x/tokenfactory/bindings"
+	tfkeeper "github.com/MonCatCat/quasar/x/tokenfactory/keeper"
+	tftypes "github.com/MonCatCat/quasar/x/tokenfactory/types"
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 )
 

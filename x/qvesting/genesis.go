@@ -1,9 +1,9 @@
 package qvesting
 
 import (
+	"github.com/MonCatCat/quasar/x/qvesting/keeper"
+	"github.com/MonCatCat/quasar/x/qvesting/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/quasarlabs/quasarnode/x/qvesting/keeper"
-	"github.com/quasarlabs/quasarnode/x/qvesting/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

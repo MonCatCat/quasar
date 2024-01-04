@@ -8,7 +8,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	bindingstypes "github.com/quasarlabs/quasarnode/x/tokenfactory/bindings/types"
+	bindingstypes "github.com/MonCatCat/quasar/x/tokenfactory/bindings/types"
 )
 
 // CustomQuerier dispatches custom CosmWasm bindings queries.

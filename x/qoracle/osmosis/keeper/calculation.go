@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
+	epochtypes "github.com/MonCatCat/quasar/osmosis/epochs/types"
+	balancerpool "github.com/MonCatCat/quasar/osmosis/gamm/pool-models/balancer"
+	poolincentivestypes "github.com/MonCatCat/quasar/osmosis/pool-incentives/types"
+	"github.com/MonCatCat/quasar/x/qoracle/osmosis/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	epochtypes "github.com/quasarlabs/quasarnode/osmosis/epochs/types"
-	balancerpool "github.com/quasarlabs/quasarnode/osmosis/gamm/pool-models/balancer"
-	poolincentivestypes "github.com/quasarlabs/quasarnode/osmosis/pool-incentives/types"
-	"github.com/quasarlabs/quasarnode/x/qoracle/osmosis/types"
 )
 
 const Year = 365 * 24 * time.Hour

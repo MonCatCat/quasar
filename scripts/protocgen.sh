@@ -26,4 +26,4 @@ done
 find ${project_dir} -path "github.com" -prune -and -name "*.pb*.go" -type f -delete
 
 # Copy the generated go files over
-cp -r github.com/quasarlabs/quasarnode/* .
+cp -r github.com/MonCatCat/quasar/* .

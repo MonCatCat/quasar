@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/MonCatCat/quasar/x/qtransfer"
+	qtransfertestutils "github.com/MonCatCat/quasar/x/qtransfer/testutils"
+	"github.com/MonCatCat/quasar/x/qtransfer/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	transfertypes "github.com/cosmos/ibc-go/v4/modules/apps/transfer/types"
 	clienttypes "github.com/cosmos/ibc-go/v4/modules/core/02-client/types"
 	channeltypes "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
 	ibctesting "github.com/cosmos/ibc-go/v4/testing"
-	"github.com/quasarlabs/quasarnode/x/qtransfer"
-	qtransfertestutils "github.com/quasarlabs/quasarnode/x/qtransfer/testutils"
-	"github.com/quasarlabs/quasarnode/x/qtransfer/types"
 	"github.com/stretchr/testify/suite"
 )
 

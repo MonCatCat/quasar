@@ -1,12 +1,13 @@
 package types_test
 
 import (
-	"github.com/quasarlabs/quasarnode/cmd/quasarnoded/cmd"
 	"testing"
+
+	"github.com/MonCatCat/quasar/cmd/quasarnoded/cmd"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/quasarlabs/quasarnode/x/tokenfactory/types"
+	"github.com/MonCatCat/quasar/x/tokenfactory/types"
 )
 
 func TestGenesisState_Validate(t *testing.T) {

@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/quasarlabs/quasarnode/app/params"
+	"github.com/MonCatCat/quasar/app/params"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/codec/types"

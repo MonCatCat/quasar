@@ -9,7 +9,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 	"github.com/stretchr/testify/require"
 
-	"github.com/quasarlabs/quasarnode/app"
+	"github.com/MonCatCat/quasar/app"
 )
 
 func init() {

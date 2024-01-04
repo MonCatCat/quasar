@@ -2,16 +2,17 @@ package keeper
 
 import (
 	"fmt"
+
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	"github.com/cosmos/cosmos-sdk/x/auth/vesting/exported"
 	"github.com/tendermint/tendermint/libs/log"
 	"google.golang.org/grpc/grpclog"
 
+	"github.com/MonCatCat/quasar/x/qvesting/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/quasarlabs/quasarnode/x/qvesting/types"
 )
 
 type (

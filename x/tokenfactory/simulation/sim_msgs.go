@@ -7,9 +7,9 @@ import (
 	legacysimulationtype "github.com/cosmos/cosmos-sdk/types/simulation"
 
 	"github.com/osmosis-labs/osmosis/osmoutils"
-	"github.com/quasarlabs/quasarnode/simulation/simtypes"
-	"github.com/quasarlabs/quasarnode/x/tokenfactory/keeper"
-	"github.com/quasarlabs/quasarnode/x/tokenfactory/types"
+	"github.com/MonCatCat/quasar/simulation/simtypes"
+	"github.com/MonCatCat/quasar/x/tokenfactory/keeper"
+	"github.com/MonCatCat/quasar/x/tokenfactory/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

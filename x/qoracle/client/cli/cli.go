@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/spf13/cobra"
 
-	qosmocli "github.com/quasarlabs/quasarnode/x/qoracle/osmosis/client/cli"
-	"github.com/quasarlabs/quasarnode/x/qoracle/types"
+	qosmocli "github.com/MonCatCat/quasar/x/qoracle/osmosis/client/cli"
+	"github.com/MonCatCat/quasar/x/qoracle/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

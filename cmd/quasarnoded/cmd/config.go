@@ -3,7 +3,7 @@ package cmd
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/quasarlabs/quasarnode/app"
+	"github.com/MonCatCat/quasar/app"
 )
 
 func InitTestConfig() {

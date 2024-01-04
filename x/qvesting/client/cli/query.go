@@ -3,9 +3,10 @@ package cli
 import (
 	"context"
 	"fmt"
+
+	"github.com/MonCatCat/quasar/x/qvesting/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/quasarlabs/quasarnode/x/qvesting/types"
 	"github.com/spf13/cobra"
 )
 

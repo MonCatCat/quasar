@@ -16,7 +16,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/CosmWasm/wasmd/x/wasm/keeper"
-	"github.com/quasarlabs/quasarnode/app"
+	"github.com/MonCatCat/quasar/app"
 )
 
 func CreateTestInput() (*app.TokenApp, sdk.Context) {

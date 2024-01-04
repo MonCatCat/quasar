@@ -1,11 +1,11 @@
 package keeper
 
 import (
+	"github.com/MonCatCat/quasar/app"
+	"github.com/MonCatCat/quasar/app/params"
 	"github.com/cosmos/cosmos-sdk/store"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/quasarlabs/quasarnode/app"
-	"github.com/quasarlabs/quasarnode/app/params"
 	tmdb "github.com/tendermint/tm-db"
 )
 

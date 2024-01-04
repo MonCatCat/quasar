@@ -1,10 +1,10 @@
 package testutils
 
 import (
+	"github.com/MonCatCat/quasar/x/qtransfer"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	channeltypes "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
 	ibcexported "github.com/cosmos/ibc-go/v4/modules/core/exported"
-	"github.com/quasarlabs/quasarnode/x/qtransfer"
 )
 
 var (

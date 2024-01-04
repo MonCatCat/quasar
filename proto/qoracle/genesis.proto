@@ -5,7 +5,7 @@ import "gogoproto/gogo.proto";
 import "qoracle/params.proto";
 import "qoracle/osmosis/params.proto";
 
-option go_package = "github.com/quasarlabs/quasarnode/x/qoracle/genesis/types";
+option go_package = "github.com/MonCatCat/quasar/x/qoracle/genesis/types";
 
 // GenesisState defines the qoracle module's genesis state.
 message GenesisState {

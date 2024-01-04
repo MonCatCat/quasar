@@ -3,7 +3,7 @@ package quasarlabs.quasarnode.qtransfer;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/quasarlabs/quasarnode/x/qtransfer/types";
+option go_package = "github.com/MonCatCat/quasar/x/qtransfer/types";
 
 // Params defines the parameters for the module.
 message Params {

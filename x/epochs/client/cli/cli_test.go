@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/MonCatCat/quasar/testutil/network"
+	"github.com/MonCatCat/quasar/x/epochs/client/cli"
+	"github.com/MonCatCat/quasar/x/epochs/types"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/quasarlabs/quasarnode/testutil/network"
-	"github.com/quasarlabs/quasarnode/x/epochs/client/cli"
-	"github.com/quasarlabs/quasarnode/x/epochs/types"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 )
 

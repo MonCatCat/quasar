@@ -1,8 +1,8 @@
 package keeper
 
 import (
+	"github.com/MonCatCat/quasar/x/qtransfer/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/quasarlabs/quasarnode/x/qtransfer/types"
 )
 
 // GetParams get all parameters as types.Params

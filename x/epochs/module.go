@@ -17,10 +17,10 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/quasarlabs/quasarnode/x/epochs/client/cli"
-	"github.com/quasarlabs/quasarnode/x/epochs/keeper"
-	"github.com/quasarlabs/quasarnode/x/epochs/simulation"
-	"github.com/quasarlabs/quasarnode/x/epochs/types"
+	"github.com/MonCatCat/quasar/x/epochs/client/cli"
+	"github.com/MonCatCat/quasar/x/epochs/keeper"
+	"github.com/MonCatCat/quasar/x/epochs/simulation"
+	"github.com/MonCatCat/quasar/x/epochs/types"
 )
 
 var (

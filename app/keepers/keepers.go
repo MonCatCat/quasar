@@ -2,6 +2,13 @@ package keepers
 
 import (
 	"github.com/CosmWasm/wasmd/x/wasm"
+	epochsmodulekeeper "github.com/MonCatCat/quasar/x/epochs/keeper"
+	qoraclemodulekeeper "github.com/MonCatCat/quasar/x/qoracle/keeper"
+	qosmokeeper "github.com/MonCatCat/quasar/x/qoracle/osmosis/keeper"
+	"github.com/MonCatCat/quasar/x/qtransfer"
+	qtransferkeeper "github.com/MonCatCat/quasar/x/qtransfer/keeper"
+	qvestingmodulekeeper "github.com/MonCatCat/quasar/x/qvesting/keeper"
+	tfmodulekeeper "github.com/MonCatCat/quasar/x/tokenfactory/keeper"
 	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
 	authzkeeper "github.com/cosmos/cosmos-sdk/x/authz/keeper"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
@@ -21,13 +28,6 @@ import (
 	"github.com/cosmos/ibc-go/v4/modules/apps/transfer"
 	ibctransferkeeper "github.com/cosmos/ibc-go/v4/modules/apps/transfer/keeper"
 	ibckeeper "github.com/cosmos/ibc-go/v4/modules/core/keeper"
-	epochsmodulekeeper "github.com/quasarlabs/quasarnode/x/epochs/keeper"
-	qoraclemodulekeeper "github.com/quasarlabs/quasarnode/x/qoracle/keeper"
-	qosmokeeper "github.com/quasarlabs/quasarnode/x/qoracle/osmosis/keeper"
-	"github.com/quasarlabs/quasarnode/x/qtransfer"
-	qtransferkeeper "github.com/quasarlabs/quasarnode/x/qtransfer/keeper"
-	qvestingmodulekeeper "github.com/quasarlabs/quasarnode/x/qvesting/keeper"
-	tfmodulekeeper "github.com/quasarlabs/quasarnode/x/tokenfactory/keeper"
 )
 
 type AppKeepers struct {

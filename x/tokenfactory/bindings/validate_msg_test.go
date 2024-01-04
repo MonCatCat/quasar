@@ -7,9 +7,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	wasmbinding "github.com/quasarlabs/quasarnode/x/tokenfactory/bindings"
-	bindings "github.com/quasarlabs/quasarnode/x/tokenfactory/bindings/types"
-	"github.com/quasarlabs/quasarnode/x/tokenfactory/types"
+	wasmbinding "github.com/MonCatCat/quasar/x/tokenfactory/bindings"
+	bindings "github.com/MonCatCat/quasar/x/tokenfactory/bindings/types"
+	"github.com/MonCatCat/quasar/x/tokenfactory/types"
 
 	"github.com/stretchr/testify/require"
 )

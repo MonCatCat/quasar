@@ -1,9 +1,9 @@
 package types
 
 import (
+	qosmotypes "github.com/MonCatCat/quasar/x/qoracle/osmosis/types"
+	types "github.com/MonCatCat/quasar/x/qoracle/types"
 	host "github.com/cosmos/ibc-go/v4/modules/core/24-host"
-	qosmotypes "github.com/quasarlabs/quasarnode/x/qoracle/osmosis/types"
-	types "github.com/quasarlabs/quasarnode/x/qoracle/types"
 )
 
 // DefaultGenesis returns the default Capability genesis state

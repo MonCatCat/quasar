@@ -3,7 +3,7 @@ package quasarlabs.quasarnode.qoracle;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/quasarlabs/quasarnode/x/qoracle/types";
+option go_package = "github.com/MonCatCat/quasar/x/qoracle/types";
 
 // Params defines the parameters for the module.
 message Params {

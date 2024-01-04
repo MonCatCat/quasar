@@ -1,4 +1,4 @@
-module github.com/quasarlabs/quasarnode
+module github.com/MonCatCat/quasar
 
 go 1.20
 

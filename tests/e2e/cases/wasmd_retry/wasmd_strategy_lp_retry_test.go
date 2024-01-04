@@ -3,14 +3,13 @@ package wasmd_deposit
 import (
 	"context"
 	"encoding/json"
-	"github.com/quasarlabs/quasarnode/tests/e2e/cases/_helpers"
 	"strconv"
 	"testing"
 
+	testsuite "github.com/MonCatCat/quasar/tests/e2e/suite"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	connectiontypes "github.com/cosmos/ibc-go/v4/modules/core/03-connection/types"
 	channeltypes "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
-	testsuite "github.com/quasarlabs/quasarnode/tests/e2e/suite"
 	"github.com/strangelove-ventures/interchaintest/v4/ibc"
 	"github.com/strangelove-ventures/interchaintest/v4/testutil"
 	"github.com/stretchr/testify/suite"

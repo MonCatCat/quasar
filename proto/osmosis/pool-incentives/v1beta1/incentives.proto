@@ -4,7 +4,7 @@ package osmosis.poolincentives.v1beta1;
 import "gogoproto/gogo.proto";
 import "google/protobuf/duration.proto";
 
-option go_package = "github.com/quasarlabs/quasarnode/osmosis/pool-incentives/types";
+option go_package = "github.com/MonCatCat/quasar/osmosis/pool-incentives/types";
 
 message Params {
   // minted_denom is the denomination of the coin expected to be minted by the

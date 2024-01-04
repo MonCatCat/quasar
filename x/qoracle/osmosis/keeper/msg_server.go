@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/quasarlabs/quasarnode/x/qoracle/osmosis/types"
+	"github.com/MonCatCat/quasar/x/qoracle/osmosis/types"
 )
 
 type msgServer struct {

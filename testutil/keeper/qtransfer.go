@@ -1,12 +1,12 @@
 package keeper
 
 import (
+	"github.com/MonCatCat/quasar/x/qtransfer/keeper"
+	"github.com/MonCatCat/quasar/x/qtransfer/types"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
 	paramskeeper "github.com/cosmos/cosmos-sdk/x/params/keeper"
-	"github.com/quasarlabs/quasarnode/x/qtransfer/keeper"
-	"github.com/quasarlabs/quasarnode/x/qtransfer/types"
 )
 
 func (kf KeeperFactory) QTransferKeeper(paramsKeeper paramskeeper.Keeper, accountKeeper authkeeper.AccountKeeper) keeper.Keeper {

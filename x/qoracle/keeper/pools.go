@@ -3,9 +3,9 @@ package keeper
 import (
 	"sort"
 
+	"github.com/MonCatCat/quasar/x/qoracle/types"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/quasarlabs/quasarnode/x/qoracle/types"
 )
 
 // GetPoolsRankedByAPY returns a list of all pools with ordered by APY in descending order with an optional denom filter.

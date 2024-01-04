@@ -1,11 +1,11 @@
 package v0
 
 import (
+	"github.com/MonCatCat/quasar/app/upgrades"
+	qvestingtypes "github.com/MonCatCat/quasar/x/qvesting/types"
+	tftypes "github.com/MonCatCat/quasar/x/tokenfactory/types"
 	store "github.com/cosmos/cosmos-sdk/store/types"
 	authztypes "github.com/cosmos/cosmos-sdk/x/authz/keeper"
-	"github.com/quasarlabs/quasarnode/app/upgrades"
-	qvestingtypes "github.com/quasarlabs/quasarnode/x/qvesting/types"
-	tftypes "github.com/quasarlabs/quasarnode/x/tokenfactory/types"
 )
 
 // UpgradeName defines the on-chain upgrade name for the Quasar chain v1.0.0 upgrade.

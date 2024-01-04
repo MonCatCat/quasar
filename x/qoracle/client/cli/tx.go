@@ -3,11 +3,11 @@ package cli
 import (
 	"fmt"
 
-	"github.com/quasarlabs/quasarnode/x/qoracle/types"
+	"github.com/MonCatCat/quasar/x/qoracle/types"
 	"github.com/spf13/cobra"
 
+	qosmocli "github.com/MonCatCat/quasar/x/qoracle/osmosis/client/cli"
 	"github.com/cosmos/cosmos-sdk/client"
-	qosmocli "github.com/quasarlabs/quasarnode/x/qoracle/osmosis/client/cli"
 )
 
 // GetTxCmd returns the transaction commands for this module

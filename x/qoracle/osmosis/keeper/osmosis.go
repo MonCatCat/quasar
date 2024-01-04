@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"time"
 
+	epochtypes "github.com/MonCatCat/quasar/osmosis/epochs/types"
+	balancerpool "github.com/MonCatCat/quasar/osmosis/gamm/pool-models/balancer"
+	minttypes "github.com/MonCatCat/quasar/osmosis/mint/types"
+	poolincentivestypes "github.com/MonCatCat/quasar/osmosis/pool-incentives/types"
+	"github.com/MonCatCat/quasar/x/qoracle/osmosis/types"
+	qoracletypes "github.com/MonCatCat/quasar/x/qoracle/types"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	epochtypes "github.com/quasarlabs/quasarnode/osmosis/epochs/types"
-	balancerpool "github.com/quasarlabs/quasarnode/osmosis/gamm/pool-models/balancer"
-	minttypes "github.com/quasarlabs/quasarnode/osmosis/mint/types"
-	poolincentivestypes "github.com/quasarlabs/quasarnode/osmosis/pool-incentives/types"
-	"github.com/quasarlabs/quasarnode/x/qoracle/osmosis/types"
-	qoracletypes "github.com/quasarlabs/quasarnode/x/qoracle/types"
 )
 
 func (k Keeper) SetEpochsInfo(ctx sdk.Context, epochs []epochtypes.EpochInfo) {

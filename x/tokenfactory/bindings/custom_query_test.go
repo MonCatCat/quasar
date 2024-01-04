@@ -11,8 +11,8 @@ import (
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/quasarlabs/quasarnode/app"
-	bindings "github.com/quasarlabs/quasarnode/x/tokenfactory/bindings/types"
+	"github.com/MonCatCat/quasar/app"
+	bindings "github.com/MonCatCat/quasar/x/tokenfactory/bindings/types"
 )
 
 func TestQueryFullDenom(t *testing.T) {

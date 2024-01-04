@@ -12,6 +12,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+
 	// "github.com/osmosis-labs/osmosis/v15/simulation/simtypes"
 
 	"github.com/cosmos/cosmos-sdk/client"
@@ -24,12 +25,12 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	// "github.com/quasarlabs/quasarnode/simulation/simtypes"
-	// simulation "github.com/quasarlabs/quasarnode/x/tokenfactory/simulation"
+	// "github.com/MonCatCat/quasar/simulation/simtypes"
+	// simulation "github.com/MonCatCat/quasar/x/tokenfactory/simulation"
 
-	"github.com/quasarlabs/quasarnode/x/tokenfactory/client/cli"
-	"github.com/quasarlabs/quasarnode/x/tokenfactory/keeper"
-	"github.com/quasarlabs/quasarnode/x/tokenfactory/types"
+	"github.com/MonCatCat/quasar/x/tokenfactory/client/cli"
+	"github.com/MonCatCat/quasar/x/tokenfactory/keeper"
+	"github.com/MonCatCat/quasar/x/tokenfactory/types"
 )
 
 var (

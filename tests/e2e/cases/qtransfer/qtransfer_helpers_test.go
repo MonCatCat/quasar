@@ -3,8 +3,9 @@ package qtransfer
 import (
 	"context"
 	"fmt"
-	testsuite "github.com/quasarlabs/quasarnode/tests/e2e/suite"
 	"os"
+
+	testsuite "github.com/MonCatCat/quasar/tests/e2e/suite"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/strangelove-ventures/interchaintest/v4/ibc"

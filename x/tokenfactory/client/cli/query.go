@@ -13,7 +13,7 @@ import (
 	// "github.com/cosmos/cosmos-sdk/client/flags"
 	// sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/quasarlabs/quasarnode/x/tokenfactory/types"
+	"github.com/MonCatCat/quasar/x/tokenfactory/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

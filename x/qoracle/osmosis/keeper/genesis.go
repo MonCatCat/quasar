@@ -3,8 +3,8 @@ package keeper
 import (
 	"fmt"
 
+	genesistypes "github.com/MonCatCat/quasar/x/qoracle/genesis/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	genesistypes "github.com/quasarlabs/quasarnode/x/qoracle/genesis/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

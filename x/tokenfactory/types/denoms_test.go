@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	cmd "github.com/quasarlabs/quasarnode/cmd/quasarnoded/cmd"
-	"github.com/quasarlabs/quasarnode/x/tokenfactory/types"
+	cmd "github.com/MonCatCat/quasar/cmd/quasarnoded/cmd"
+	"github.com/MonCatCat/quasar/x/tokenfactory/types"
 )
 
 func TestDeconstructDenom(t *testing.T) {

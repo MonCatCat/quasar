@@ -3,9 +3,9 @@ package keeper_test
 import (
 	"testing"
 
+	testkeeper "github.com/MonCatCat/quasar/testutil/keeper"
+	"github.com/MonCatCat/quasar/x/qvesting/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	testkeeper "github.com/quasarlabs/quasarnode/testutil/keeper"
-	"github.com/quasarlabs/quasarnode/x/qvesting/types"
 	"github.com/stretchr/testify/require"
 )
 

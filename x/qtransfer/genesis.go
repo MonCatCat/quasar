@@ -1,9 +1,9 @@
 package qtransfer
 
 import (
+	"github.com/MonCatCat/quasar/x/qtransfer/keeper"
+	"github.com/MonCatCat/quasar/x/qtransfer/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/quasarlabs/quasarnode/x/qtransfer/keeper"
-	"github.com/quasarlabs/quasarnode/x/qtransfer/types"
 )
 
 // InitGenesis initializes the qtransfer state and creates the intermediate account for wasm hooks.

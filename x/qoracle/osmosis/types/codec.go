@@ -1,11 +1,11 @@
 package types
 
 import (
+	balancerpool "github.com/MonCatCat/quasar/osmosis/gamm/pool-models/balancer"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/types/msgservice"
 	"github.com/gogo/protobuf/proto"
-	balancerpool "github.com/quasarlabs/quasarnode/osmosis/gamm/pool-models/balancer"
 )
 
 func RegisterCodec(cdc *codec.LegacyAmino) {

@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/quasarlabs/quasarnode/x/tokenfactory/types"
+	"github.com/MonCatCat/quasar/x/tokenfactory/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

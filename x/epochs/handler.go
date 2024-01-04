@@ -3,10 +3,10 @@ package epochs
 import (
 	"fmt"
 
+	"github.com/MonCatCat/quasar/x/epochs/keeper"
+	"github.com/MonCatCat/quasar/x/epochs/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/quasarlabs/quasarnode/x/epochs/keeper"
-	"github.com/quasarlabs/quasarnode/x/epochs/types"
 )
 
 // NewHandler returns a handler for epochs module messages.

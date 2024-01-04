@@ -1,4 +1,4 @@
-module github.com/quasarlabs/quasarnode/tests/e2e
+module github.com/MonCatCat/quasar/tests/e2e
 
 go 1.19
 

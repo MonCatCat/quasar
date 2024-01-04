@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/MonCatCat/quasar/tests/e2e/dockerutil"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	paramsutils "github.com/cosmos/cosmos-sdk/x/params/client/utils"
-	"github.com/quasarlabs/quasarnode/tests/e2e/dockerutil"
 	"github.com/strangelove-ventures/interchaintest/v4/chain/cosmos"
 	"go.uber.org/zap"
 )

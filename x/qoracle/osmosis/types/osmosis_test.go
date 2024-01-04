@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	poolincentivestypes "github.com/quasarlabs/quasarnode/osmosis/pool-incentives/types"
+	poolincentivestypes "github.com/MonCatCat/quasar/osmosis/pool-incentives/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -90,7 +90,7 @@ Then make sure the upgrade is registered in the `app.go`:
 ```golang
 // imports
 // ...
-dummy "github.com/quasarlabs/quasarnode/app/upgrades/dummy"
+dummy "github.com/MonCatCat/quasar/app/upgrades/dummy"
 
 // var block declaration
 // ...

@@ -1,15 +1,15 @@
 package v0
 
 import (
+	"github.com/MonCatCat/quasar/app/keepers"
+	"github.com/MonCatCat/quasar/app/upgrades"
+	qvestingkeeper "github.com/MonCatCat/quasar/x/qvesting/keeper"
+	qvestingtypes "github.com/MonCatCat/quasar/x/qvesting/types"
+	tfkeeper "github.com/MonCatCat/quasar/x/tokenfactory/keeper"
+	tftypes "github.com/MonCatCat/quasar/x/tokenfactory/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-	"github.com/quasarlabs/quasarnode/app/keepers"
-	"github.com/quasarlabs/quasarnode/app/upgrades"
-	qvestingkeeper "github.com/quasarlabs/quasarnode/x/qvesting/keeper"
-	qvestingtypes "github.com/quasarlabs/quasarnode/x/qvesting/types"
-	tfkeeper "github.com/quasarlabs/quasarnode/x/tokenfactory/keeper"
-	tftypes "github.com/quasarlabs/quasarnode/x/tokenfactory/types"
 )
 
 func CreateUpgradeHandler(

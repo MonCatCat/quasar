@@ -3,11 +3,12 @@ package keeper
 import (
 	"context"
 	"errors"
+
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
+	"github.com/MonCatCat/quasar/x/epochs/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/quasarlabs/quasarnode/x/epochs/types"
 )
 
 var _ types.QueryServer = Querier{}

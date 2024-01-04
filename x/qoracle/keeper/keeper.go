@@ -3,12 +3,12 @@ package keeper
 import (
 	"fmt"
 
+	"github.com/MonCatCat/quasar/x/qoracle/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/quasarlabs/quasarnode/x/qoracle/types"
 	"github.com/tendermint/tendermint/libs/log"
 )
 

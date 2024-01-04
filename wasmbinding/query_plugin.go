@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
+	"github.com/MonCatCat/quasar/wasmbinding/bindings"
+	qoraclekeeper "github.com/MonCatCat/quasar/x/qoracle/keeper"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/quasarlabs/quasarnode/wasmbinding/bindings"
-	qoraclekeeper "github.com/quasarlabs/quasarnode/x/qoracle/keeper"
 )
 
 func CustomQuerier(qk qoraclekeeper.Keeper) func(ctx sdk.Context, request json.RawMessage) ([]byte, error) {

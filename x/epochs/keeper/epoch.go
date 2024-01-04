@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/MonCatCat/quasar/x/epochs/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/gogo/protobuf/proto"
-	"github.com/quasarlabs/quasarnode/x/epochs/types"
 )
 
 // GetEpochInfo returns epoch info by identifier.

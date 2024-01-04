@@ -3,10 +3,10 @@ package qvesting
 import (
 	"fmt"
 
+	"github.com/MonCatCat/quasar/x/qvesting/keeper"
+	"github.com/MonCatCat/quasar/x/qvesting/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/quasarlabs/quasarnode/x/qvesting/keeper"
-	"github.com/quasarlabs/quasarnode/x/qvesting/types"
 )
 
 // NewHandler ...

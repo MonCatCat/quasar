@@ -2,7 +2,8 @@ package types
 
 import (
 	"fmt"
-	appparams "github.com/quasarlabs/quasarnode/app/params"
+
+	appparams "github.com/MonCatCat/quasar/app/params"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"

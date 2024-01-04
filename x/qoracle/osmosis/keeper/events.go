@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
+	"github.com/MonCatCat/quasar/x/qoracle/osmosis/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	channeltypes "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
-	"github.com/quasarlabs/quasarnode/x/qoracle/osmosis/types"
 )
 
 // EmitOsmosisRequestEvent emits an event signalling a successful or failed icq request to fetch osmosis chain params and including the error

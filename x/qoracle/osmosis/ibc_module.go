@@ -4,6 +4,8 @@ import (
 	"strings"
 
 	// "cosmossdk.io/errors"
+	"github.com/MonCatCat/quasar/x/qoracle/osmosis/keeper"
+	"github.com/MonCatCat/quasar/x/qoracle/osmosis/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
@@ -11,8 +13,6 @@ import (
 	porttypes "github.com/cosmos/ibc-go/v4/modules/core/05-port/types"
 	host "github.com/cosmos/ibc-go/v4/modules/core/24-host"
 	ibcexported "github.com/cosmos/ibc-go/v4/modules/core/exported"
-	"github.com/quasarlabs/quasarnode/x/qoracle/osmosis/keeper"
-	"github.com/quasarlabs/quasarnode/x/qoracle/osmosis/types"
 	icqtypes "github.com/strangelove-ventures/async-icq/v4/types"
 )
 

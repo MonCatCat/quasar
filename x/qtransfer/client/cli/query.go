@@ -3,10 +3,10 @@ package cli
 import (
 	"fmt"
 
+	"github.com/MonCatCat/quasar/x/qtransfer/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/quasarlabs/quasarnode/x/qtransfer/types"
 	"github.com/spf13/cobra"
 )
 

@@ -1,11 +1,11 @@
 package types
 
 import (
+	epochtypes "github.com/MonCatCat/quasar/osmosis/epochs/types"
+	gammtypes "github.com/MonCatCat/quasar/osmosis/gamm/types"
+	minttypes "github.com/MonCatCat/quasar/osmosis/mint/types"
+	poolincentivestypes "github.com/MonCatCat/quasar/osmosis/pool-incentives/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	epochtypes "github.com/quasarlabs/quasarnode/osmosis/epochs/types"
-	gammtypes "github.com/quasarlabs/quasarnode/osmosis/gamm/types"
-	minttypes "github.com/quasarlabs/quasarnode/osmosis/mint/types"
-	poolincentivestypes "github.com/quasarlabs/quasarnode/osmosis/pool-incentives/types"
 	icqtypes "github.com/strangelove-ventures/async-icq/v4/types"
 	abcitypes "github.com/tendermint/tendermint/abci/types"
 )

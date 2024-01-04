@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	// "github.com/CosmosTokenFactory/token-factory/app/apptesting"
+	"github.com/MonCatCat/quasar/x/tokenfactory/testhelpers"
+	"github.com/MonCatCat/quasar/x/tokenfactory/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/quasarlabs/quasarnode/x/tokenfactory/testhelpers"
-	"github.com/quasarlabs/quasarnode/x/tokenfactory/types"
 	"github.com/stretchr/testify/require"
 
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"

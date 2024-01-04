@@ -7,7 +7,7 @@ import "cosmos/base/v1beta1/coin.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
 import "qtransfer/params.proto";
 
-option go_package = "github.com/quasarlabs/quasarnode/x/qtransfer/types";
+option go_package = "github.com/MonCatCat/quasar/x/qtransfer/types";
 
 // Query defines the gRPC querier service.
 service Query {

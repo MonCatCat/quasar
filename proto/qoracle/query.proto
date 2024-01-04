@@ -9,7 +9,7 @@ import "cosmos/base/query/v1beta1/pagination.proto";
 import "qoracle/params.proto";
 import "qoracle/pool.proto";
 
-option go_package = "github.com/quasarlabs/quasarnode/x/qoracle/types";
+option go_package = "github.com/MonCatCat/quasar/x/qoracle/types";
 
 // Query defines the gRPC querier service.
 service Query {

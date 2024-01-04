@@ -3,9 +3,9 @@ package qtransfer_test
 import (
 	"testing"
 
-	"github.com/quasarlabs/quasarnode/testutil"
-	"github.com/quasarlabs/quasarnode/x/qtransfer"
-	"github.com/quasarlabs/quasarnode/x/qtransfer/types"
+	"github.com/MonCatCat/quasar/testutil"
+	"github.com/MonCatCat/quasar/x/qtransfer"
+	"github.com/MonCatCat/quasar/x/qtransfer/types"
 	"github.com/stretchr/testify/require"
 )
 

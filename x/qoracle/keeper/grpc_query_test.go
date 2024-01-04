@@ -3,9 +3,9 @@ package keeper_test
 import (
 	"testing"
 
+	"github.com/MonCatCat/quasar/testutil"
+	"github.com/MonCatCat/quasar/x/qoracle/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/quasarlabs/quasarnode/testutil"
-	"github.com/quasarlabs/quasarnode/x/qoracle/types"
 	"github.com/stretchr/testify/require"
 )
 

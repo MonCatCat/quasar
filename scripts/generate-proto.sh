@@ -48,5 +48,5 @@ Mgoogle/protobuf/any.proto=github.com/cosmos/cosmos-sdk/codec/types:"$tmp_dir" \
   find ${project_dir} -name "*.pb*.go" -not -path "${tmp_dir}/*" -type f -delete
 
   # Copy the generated go files over
-  cp -r "${tmp_dir}/github.com/quasarlabs/quasarnode/"* .
+  cp -r "${tmp_dir}/github.com/MonCatCat/quasar/"* .
 )

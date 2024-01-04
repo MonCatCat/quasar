@@ -1,8 +1,8 @@
 package v0
 
 import (
+	qvestingkeeper "github.com/MonCatCat/quasar/x/qvesting/keeper"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	qvestingkeeper "github.com/quasarlabs/quasarnode/x/qvesting/keeper"
 )
 
 func SetQVestingParams(ctx sdk.Context, icqKeeper *qvestingkeeper.Keeper) {

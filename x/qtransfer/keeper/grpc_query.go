@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
+	"github.com/MonCatCat/quasar/x/qtransfer/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/quasarlabs/quasarnode/x/qtransfer/types"
 )
 
 var _ types.QueryServer = Keeper{}

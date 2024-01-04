@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/quasarlabs/quasarnode/x/qvesting/types"
+	"github.com/MonCatCat/quasar/x/qvesting/types"
 	"github.com/stretchr/testify/require"
 )
 

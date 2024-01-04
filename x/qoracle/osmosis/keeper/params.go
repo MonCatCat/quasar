@@ -1,9 +1,9 @@
 package keeper
 
 import (
+	"github.com/MonCatCat/quasar/x/qoracle/osmosis/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	clienttypes "github.com/cosmos/ibc-go/v4/modules/core/02-client/types"
-	"github.com/quasarlabs/quasarnode/x/qoracle/osmosis/types"
 )
 
 // GetParams returns the total set of module parameters.

@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/quasarlabs/quasarnode/x/qoracle/types"
+	"github.com/MonCatCat/quasar/x/qoracle/types"
 )
 
 type msgServer struct {

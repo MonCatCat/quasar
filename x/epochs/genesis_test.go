@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/quasarlabs/quasarnode/testutil"
-	"github.com/quasarlabs/quasarnode/x/epochs"
-	"github.com/quasarlabs/quasarnode/x/epochs/types"
+	"github.com/MonCatCat/quasar/testutil"
+	"github.com/MonCatCat/quasar/x/epochs"
+	"github.com/MonCatCat/quasar/x/epochs/types"
 	"github.com/stretchr/testify/require"
 )
 
